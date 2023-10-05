@@ -1,0 +1,80 @@
+/**General**/
+:root {
+  --IRIS: #4d5ae5;
+  --OCEAN: #404bbf;
+  --NAVY-BLUE: #2e2f42;
+  --GREEN: #31d0aa;
+  --SLATE: #434455;
+  --LIGHT-SLATE: #8e8f99;
+  --CORNFLOWER: #e7e9fc;
+  --CLOUD: #f4f4fd;
+  --NAVY-BLUE-MODAL: #2e2f4266;
+  --GREY: #2e2f42b2;
+  --WHITE: #ffffff;
+  --DAIRY: #fcfcfc;
+}
+
+* {
+  margin-left: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--SLATE);
+}
+
+a {
+  text-decoration: none;
+}
+
+.brandlogo {
+  font-family: "Raleway", sans-serif;
+  color: var(--IRIS);
+}
+.top {
+  color: var(--NAVY-BLUE);
+}
+.bottom {
+  color: var(--CLOUD);
+}
+
+/**header**/
+
+.nav {
+  color: var(--NAVY-BLUE);
+}
+.nav:hover {
+  color: var(--IRIS);
+}
+.contacts {
+  color: var(--SLATE);
+}
+
+/**main section**/
+
+h1,
+h2 {
+  text-align: center;
+}
+h2,
+h3 {
+  color: var(--NAVY-BLUE);
+}
+
+button {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+}
+
+.Intro {
+  background-color: var(--NAVY-BLUE);
+  color: var(--WHITE);
+}
+
+/**footer**/
+
+footer {
+  background-color: var(--NAVY-BLUE);
+  color: var(--CLOUD);
+}
