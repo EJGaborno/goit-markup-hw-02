@@ -24,6 +24,10 @@ body {
   color: var(--SLATE);
 }
 
+li {
+  list-style: none;
+}
+
 a {
   text-decoration: none;
 }
@@ -41,11 +45,12 @@ a {
 
 /**header**/
 
-.nav {
-  color: var(--NAVY-BLUE);
-}
 .nav:hover {
   color: var(--IRIS);
+}
+.link {
+  color: var(--NAVY-BLUE);
+  font-weight: 500;
 }
 .contacts {
   color: var(--SLATE);
@@ -53,18 +58,25 @@ a {
 
 /**main section**/
 
+button {
+  font-family: "Roboto", sans-serif;
+}
+button:hover {
+  background-color: var(--IRIS);
+  color: var(--WHITE);
+}
+
 h1,
 h2 {
   text-align: center;
+  font-weight: 700;
 }
 h2,
 h3 {
   color: var(--NAVY-BLUE);
 }
-
-button {
-  background-color: var(--IRIS);
-  color: var(--WHITE);
+h3 {
+  font-weight: 500;
 }
 
 .Intro {
